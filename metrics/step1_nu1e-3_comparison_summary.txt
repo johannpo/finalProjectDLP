@@ -1,0 +1,28 @@
+COMPARISON_NAME = step1_nu1e-3
+BASELINE = Baseline
+BASELINE_FILE = /scratch/s4099265/dlp_project/final_project/output/baseline_roll/eval/baseline_roll_samp1000_ep500_m12_w20_tin10_tout40_predictions.npz
+
+LABEL = Baseline
+full_rel_l2_mean = 0.0537736751139164
+grad_rel_err_mean = 0.124359130859375
+hf_rel_err_mean = 1.530568624730222e-05
+full_rel_l2_improvement_pct = 0.0
+grad_rel_err_improvement_pct = 0.0
+hf_rel_err_improvement_pct = 0.0
+
+LABEL = Improved A
+full_rel_l2_mean = 0.0726311132311821
+grad_rel_err_mean = 0.11995165050029755
+hf_rel_err_mean = 1.4253199651648174e-06
+full_rel_l2_improvement_pct = -35.06815942367085
+grad_rel_err_improvement_pct = 3.5441550038058565
+hf_rel_err_improvement_pct = 90.68763824756681
+
+LABEL = Improved B
+full_rel_l2_mean = 0.08446091413497925
+grad_rel_err_mean = 0.13631898164749146
+hf_rel_err_mean = 1.1493369811432785e-07
+full_rel_l2_improvement_pct = -57.067401392006495
+grad_rel_err_improvement_pct = -9.617187499922666
+hf_rel_err_improvement_pct = 99.24907195438358
+
